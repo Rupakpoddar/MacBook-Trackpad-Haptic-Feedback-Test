@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - macos_haptic_feedback (1.0.0):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - macos_haptic_feedback (from `Flutter/ephemeral/.symlinks/plugins/macos_haptic_feedback/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  macos_haptic_feedback:
+    :path: Flutter/ephemeral/.symlinks/plugins/macos_haptic_feedback/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  macos_haptic_feedback: 6b19c192ff0e8137774eccb8a42227af688da8ee
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.15.2
