@@ -34,17 +34,14 @@ class _MyAppState extends State<MyApp> {
             children: [
               ...[
                 (
-                function: _macosHapticFeedback.generic,
                 text: '10 ms',
                 delay: 10,
                 ),
                 (
-                function: _macosHapticFeedback.alignment,
                 text: '25 ms',
                 delay: 25,
                 ),
                 (
-                function: _macosHapticFeedback.levelChange,
                 text: '50 ms',
                 delay: 50,
                 )
@@ -62,7 +59,7 @@ class _MyAppState extends State<MyApp> {
                       triggerHaptics = true;
                     }
                     while (triggerHaptics) {
-                      e.function();
+                      _macosHapticFeedback.generic();
                       await Future.delayed(Duration(milliseconds: e.delay));
                     }
                   },
